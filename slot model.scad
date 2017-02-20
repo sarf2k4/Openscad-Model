@@ -1,5 +1,9 @@
 //This is a replica of Autodesk meshmixer's functional clip slot. This clip slot is based on meshmixer's default clip size of about 20.42mm size. 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 scalesize=1; //by default, meshmixer use scale based size
 
 $fn=80;

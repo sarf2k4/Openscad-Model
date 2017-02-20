@@ -4,7 +4,10 @@ length=0; //change this if you want to make the clip longer/shorter.
 
 scalesize=1; //by default, meshmixer use scale based size
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 module fullclip()
 {
     rotate([90])scale([scalesize,scalesize,scalesize])difference()
