@@ -4,6 +4,11 @@ length=0; //change this if you want to make the clip longer/shorter.
 
 scalesize=1; //by default, meshmixer use scale based size
 
+
+//fullclip();
+
+$fn=80;
+
 module fullclip()
 {
     rotate([90])scale([scalesize,scalesize,scalesize])difference()
@@ -18,7 +23,6 @@ module fullclip()
     }
 }
 
-$fn=80;
 module body()
 {
     color("cyan")cylinder(d=7.98,h=7.5+(length));

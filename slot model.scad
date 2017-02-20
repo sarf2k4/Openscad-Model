@@ -2,8 +2,11 @@
 
 scalesize=1; //by default, meshmixer use scale based size
 
+
+//clip_slot();
+
 $fn=80;
-module clip_slot(scalesize)
+module clip_slot()
 {
     union()
     {
