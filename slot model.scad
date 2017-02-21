@@ -2,7 +2,6 @@
 
 scalesize=1; //by default, meshmixer use scale based size
 
-
 //clip_slot();
 
 $fn=80;
@@ -32,4 +31,3 @@ module slot()
     }
 
 }
-//color("green")cube([20,20,20]);
